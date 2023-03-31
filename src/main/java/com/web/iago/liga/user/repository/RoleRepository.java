@@ -1,6 +1,6 @@
-package com.web.dad.LiGa.user.repository;
+package com.web.iago.liga.user.repository;
 
-import com.web.dad.LiGa.user.model.Role;
+import com.web.iago.liga.user.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepository extends JpaRepository<Role, Long> {

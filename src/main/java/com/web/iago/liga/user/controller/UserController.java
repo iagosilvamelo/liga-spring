@@ -1,7 +1,7 @@
-package com.web.dad.LiGa.user.controller;
+package com.web.iago.liga.user.controller;
 
-import com.web.dad.LiGa.user.model.User;
-import com.web.dad.LiGa.user.repository.UserRepository;
+import com.web.iago.liga.user.model.User;
+import com.web.iago.liga.user.repository.UserRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;

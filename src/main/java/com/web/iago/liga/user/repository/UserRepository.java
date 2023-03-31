@@ -1,6 +1,6 @@
-package com.web.dad.LiGa.user.repository;
+package com.web.iago.liga.user.repository;
 
-import com.web.dad.LiGa.user.model.User;
+import com.web.iago.liga.user.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
