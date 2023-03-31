@@ -1,4 +1,4 @@
-package com.web.iago.liga.user.model;
+package com.web.iago.liga.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
