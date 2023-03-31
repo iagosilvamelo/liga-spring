@@ -1,0 +1,12 @@
+version: '3'
+services:
+  db:
+    image: mysql:8.0.32
+    restart: always
+    environment:
+      MYSQL_DATABASE: liga
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: mysecretpassword
+    ports:
+      - "3309:3306"
