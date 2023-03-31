@@ -1,4 +1,4 @@
-package com.web.dad.LiGa;
+package com.web.iago.liga;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
-public class LiGaApplication {
+public class LigaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LiGaApplication.class, args);
+		SpringApplication.run(LigaApplication.class, args);
 	}
 
 	@Bean
